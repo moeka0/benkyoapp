@@ -14,6 +14,7 @@
 		D8FE93641FA59DE400E65BF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8FE93621FA59DE400E65BF1 /* LaunchScreen.storyboard */; };
 		D8FE936F1FA59DE400E65BF1 /* benkyoappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE936E1FA59DE400E65BF1 /* benkyoappTests.swift */; };
 		D8FE937A1FA59DE400E65BF1 /* benkyoappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE93791FA59DE400E65BF1 /* benkyoappUITests.swift */; };
+		D8FE93881FA5A0AB00E65BF1 /* nyuuryokuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE93871FA5A0AB00E65BF1 /* nyuuryokuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D8FE93751FA59DE400E65BF1 /* benkyoappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = benkyoappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8FE93791FA59DE400E65BF1 /* benkyoappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = benkyoappUITests.swift; sourceTree = "<group>"; };
 		D8FE937B1FA59DE400E65BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8FE93871FA5A0AB00E65BF1 /* nyuuryokuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nyuuryokuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				D8FE93591FA59DE400E65BF1 /* AppDelegate.swift */,
 				D8FE935B1FA59DE400E65BF1 /* ViewController.swift */,
+				D8FE93871FA5A0AB00E65BF1 /* nyuuryokuViewController.swift */,
 				D8FE935D1FA59DE400E65BF1 /* Main.storyboard */,
 				D8FE93601FA59DE400E65BF1 /* Assets.xcassets */,
 				D8FE93621FA59DE400E65BF1 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8FE935C1FA59DE400E65BF1 /* ViewController.swift in Sources */,
+				D8FE93881FA5A0AB00E65BF1 /* nyuuryokuViewController.swift in Sources */,
 				D8FE935A1FA59DE400E65BF1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
