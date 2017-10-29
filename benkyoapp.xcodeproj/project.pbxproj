@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8FE935A1FA59DE400E65BF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE93591FA59DE400E65BF1 /* AppDelegate.swift */; };
+		D8FE935C1FA59DE400E65BF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE935B1FA59DE400E65BF1 /* ViewController.swift */; };
+		D8FE935F1FA59DE400E65BF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8FE935D1FA59DE400E65BF1 /* Main.storyboard */; };
+		D8FE93611FA59DE400E65BF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8FE93601FA59DE400E65BF1 /* Assets.xcassets */; };
+		D8FE93641FA59DE400E65BF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8FE93621FA59DE400E65BF1 /* LaunchScreen.storyboard */; };
+		D8FE936F1FA59DE400E65BF1 /* benkyoappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE936E1FA59DE400E65BF1 /* benkyoappTests.swift */; };
+		D8FE937A1FA59DE400E65BF1 /* benkyoappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE93791FA59DE400E65BF1 /* benkyoappUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8FE936B1FA59DE400E65BF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8FE934E1FA59DE400E65BF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8FE93551FA59DE400E65BF1;
+			remoteInfo = benkyoapp;
+		};
+		D8FE93761FA59DE400E65BF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8FE934E1FA59DE400E65BF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8FE93551FA59DE400E65BF1;
+			remoteInfo = benkyoapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8FE93561FA59DE400E65BF1 /* benkyoapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = benkyoapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8FE93591FA59DE400E65BF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8FE935B1FA59DE400E65BF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8FE935E1FA59DE400E65BF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8FE93601FA59DE400E65BF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8FE93631FA59DE400E65BF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8FE93651FA59DE400E65BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8FE936A1FA59DE400E65BF1 /* benkyoappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = benkyoappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8FE936E1FA59DE400E65BF1 /* benkyoappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = benkyoappTests.swift; sourceTree = "<group>"; };
+		D8FE93701FA59DE400E65BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8FE93751FA59DE400E65BF1 /* benkyoappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = benkyoappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8FE93791FA59DE400E65BF1 /* benkyoappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = benkyoappUITests.swift; sourceTree = "<group>"; };
+		D8FE937B1FA59DE400E65BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8FE93531FA59DE400E65BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8FE93671FA59DE400E65BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8FE93721FA59DE400E65BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8FE934D1FA59DE400E65BF1 = {
+			isa = PBXGroup;
+			children = (
+				D8FE93581FA59DE400E65BF1 /* benkyoapp */,
+				D8FE936D1FA59DE400E65BF1 /* benkyoappTests */,
+				D8FE93781FA59DE400E65BF1 /* benkyoappUITests */,
+				D8FE93571FA59DE400E65BF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8FE93571FA59DE400E65BF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8FE93561FA59DE400E65BF1 /* benkyoapp.app */,
+				D8FE936A1FA59DE400E65BF1 /* benkyoappTests.xctest */,
+				D8FE93751FA59DE400E65BF1 /* benkyoappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8FE93581FA59DE400E65BF1 /* benkyoapp */ = {
+			isa = PBXGroup;
+			children = (
+				D8FE93591FA59DE400E65BF1 /* AppDelegate.swift */,
+				D8FE935B1FA59DE400E65BF1 /* ViewController.swift */,
+				D8FE935D1FA59DE400E65BF1 /* Main.storyboard */,
+				D8FE93601FA59DE400E65BF1 /* Assets.xcassets */,
+				D8FE93621FA59DE400E65BF1 /* LaunchScreen.storyboard */,
+				D8FE93651FA59DE400E65BF1 /* Info.plist */,
+			);
+			path = benkyoapp;
+			sourceTree = "<group>";
+		};
+		D8FE936D1FA59DE400E65BF1 /* benkyoappTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8FE936E1FA59DE400E65BF1 /* benkyoappTests.swift */,
+				D8FE93701FA59DE400E65BF1 /* Info.plist */,
+			);
+			path = benkyoappTests;
+			sourceTree = "<group>";
+		};
+		D8FE93781FA59DE400E65BF1 /* benkyoappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8FE93791FA59DE400E65BF1 /* benkyoappUITests.swift */,
+				D8FE937B1FA59DE400E65BF1 /* Info.plist */,
+			);
+			path = benkyoappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8FE93551FA59DE400E65BF1 /* benkyoapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8FE937E1FA59DE400E65BF1 /* Build configuration list for PBXNativeTarget "benkyoapp" */;
+			buildPhases = (
+				D8FE93521FA59DE400E65BF1 /* Sources */,
+				D8FE93531FA59DE400E65BF1 /* Frameworks */,
+				D8FE93541FA59DE400E65BF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = benkyoapp;
+			productName = benkyoapp;
+			productReference = D8FE93561FA59DE400E65BF1 /* benkyoapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8FE93691FA59DE400E65BF1 /* benkyoappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8FE93811FA59DE400E65BF1 /* Build configuration list for PBXNativeTarget "benkyoappTests" */;
+			buildPhases = (
+				D8FE93661FA59DE400E65BF1 /* Sources */,
+				D8FE93671FA59DE400E65BF1 /* Frameworks */,
+				D8FE93681FA59DE400E65BF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8FE936C1FA59DE400E65BF1 /* PBXTargetDependency */,
+			);
+			name = benkyoappTests;
+			productName = benkyoappTests;
+			productReference = D8FE936A1FA59DE400E65BF1 /* benkyoappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8FE93741FA59DE400E65BF1 /* benkyoappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8FE93841FA59DE400E65BF1 /* Build configuration list for PBXNativeTarget "benkyoappUITests" */;
+			buildPhases = (
+				D8FE93711FA59DE400E65BF1 /* Sources */,
+				D8FE93721FA59DE400E65BF1 /* Frameworks */,
+				D8FE93731FA59DE400E65BF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8FE93771FA59DE400E65BF1 /* PBXTargetDependency */,
+			);
+			name = benkyoappUITests;
+			productName = benkyoappUITests;
+			productReference = D8FE93751FA59DE400E65BF1 /* benkyoappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8FE934E1FA59DE400E65BF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Moeka;
+				TargetAttributes = {
+					D8FE93551FA59DE400E65BF1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					D8FE93691FA59DE400E65BF1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D8FE93551FA59DE400E65BF1;
+					};
+					D8FE93741FA59DE400E65BF1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D8FE93551FA59DE400E65BF1;
+					};
+				};
+			};
+			buildConfigurationList = D8FE93511FA59DE400E65BF1 /* Build configuration list for PBXProject "benkyoapp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8FE934D1FA59DE400E65BF1;
+			productRefGroup = D8FE93571FA59DE400E65BF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8FE93551FA59DE400E65BF1 /* benkyoapp */,
+				D8FE93691FA59DE400E65BF1 /* benkyoappTests */,
+				D8FE93741FA59DE400E65BF1 /* benkyoappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8FE93541FA59DE400E65BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8FE93641FA59DE400E65BF1 /* LaunchScreen.storyboard in Resources */,
+				D8FE93611FA59DE400E65BF1 /* Assets.xcassets in Resources */,
+				D8FE935F1FA59DE400E65BF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8FE93681FA59DE400E65BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8FE93731FA59DE400E65BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8FE93521FA59DE400E65BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8FE935C1FA59DE400E65BF1 /* ViewController.swift in Sources */,
+				D8FE935A1FA59DE400E65BF1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8FE93661FA59DE400E65BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8FE936F1FA59DE400E65BF1 /* benkyoappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8FE93711FA59DE400E65BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8FE937A1FA59DE400E65BF1 /* benkyoappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8FE936C1FA59DE400E65BF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8FE93551FA59DE400E65BF1 /* benkyoapp */;
+			targetProxy = D8FE936B1FA59DE400E65BF1 /* PBXContainerItemProxy */;
+		};
+		D8FE93771FA59DE400E65BF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8FE93551FA59DE400E65BF1 /* benkyoapp */;
+			targetProxy = D8FE93761FA59DE400E65BF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8FE935D1FA59DE400E65BF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8FE935E1FA59DE400E65BF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8FE93621FA59DE400E65BF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8FE93631FA59DE400E65BF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8FE937C1FA59DE400E65BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8FE937D1FA59DE400E65BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8FE937F1FA59DE400E65BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = benkyoapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moeka.benkyoapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8FE93801FA59DE400E65BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = benkyoapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moeka.benkyoapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D8FE93821FA59DE400E65BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = benkyoappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moeka.benkyoappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/benkyoapp.app/benkyoapp";
+			};
+			name = Debug;
+		};
+		D8FE93831FA59DE400E65BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = benkyoappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moeka.benkyoappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/benkyoapp.app/benkyoapp";
+			};
+			name = Release;
+		};
+		D8FE93851FA59DE400E65BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = benkyoappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moeka.benkyoappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = benkyoapp;
+			};
+			name = Debug;
+		};
+		D8FE93861FA59DE400E65BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = benkyoappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moeka.benkyoappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = benkyoapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8FE93511FA59DE400E65BF1 /* Build configuration list for PBXProject "benkyoapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8FE937C1FA59DE400E65BF1 /* Debug */,
+				D8FE937D1FA59DE400E65BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8FE937E1FA59DE400E65BF1 /* Build configuration list for PBXNativeTarget "benkyoapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8FE937F1FA59DE400E65BF1 /* Debug */,
+				D8FE93801FA59DE400E65BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8FE93811FA59DE400E65BF1 /* Build configuration list for PBXNativeTarget "benkyoappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8FE93821FA59DE400E65BF1 /* Debug */,
+				D8FE93831FA59DE400E65BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8FE93841FA59DE400E65BF1 /* Build configuration list for PBXNativeTarget "benkyoappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8FE93851FA59DE400E65BF1 /* Debug */,
+				D8FE93861FA59DE400E65BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8FE934E1FA59DE400E65BF1 /* Project object */;
+}
